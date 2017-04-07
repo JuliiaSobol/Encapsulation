@@ -1,0 +1,52 @@
+
+public class Dog {
+	
+	private String Name;
+	private String Breed;
+	private String AverageWeight;
+	private String AverageHeight;
+	
+	
+	public String getName() {
+		return Name;
+	}
+	public void setName(String name) {
+		Name = name;
+	}
+	public String getBreed() {
+		return Breed;
+	}
+	public void setBreed(String breed) {
+		Breed = breed;
+	}
+	public String getAverageWeight() {
+		return AverageWeight;
+	}
+	public void setAverageWeight(String averageWeight) {
+		AverageWeight = averageWeight;
+	}
+	public String getAverageHeight() {
+		return AverageHeight;
+	}
+	public void setAverageHeight(String averageHeight) {
+		AverageHeight = averageHeight;
+	}
+	
+public static void main(String[] args) {
+		
+		Dog dog = new Dog();
+		
+		dog.setName("Jack");
+		dog.getName();
+		
+		dog.setBreed("Rottweiler");
+		dog.getBreed();
+		
+		dog.setAverageWeight("50 кг");
+		dog.getAverageWeight();
+		
+		dog.setAverageHeight("60 см");
+		dog.getAverageHeight();
+
+	}
+}
